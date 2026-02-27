@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais sobre formulários</title>
+</head>
+
+<body>
+    <h1>Mais sobre formulários</h1>
+    <form action="../Aula001/processo.html" method="get">
+        <h2>Label</h2>
+        <label>
+            Nome:
+            <input type="text" name="Nome">
+        </label>
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+
+        <br>
+        <h1>Mais elementos de formulários</h1>
+
+        Gênero<br>
+        <input type="radio" name="genero" value="feminino" id="genero">
+        <label for="genero">Feminino</label>
+
+        <input type="radio" name="genero" value="masculino" id="masculino">
+        <label for="masculino">Masculino</label>
+
+        <br>
+
+        <input type="radio" name="tipo" value="web" id="tipo">
+        <label for="tipo">Web</label>
+
+        <input type="radio" name="tipo" value="app" id="app">
+        <label for="app">App</label>
+
+        <br>
+
+        Estilo musical<br>
+        <input type="checkbox" name="estilo" id="rock">
+        <label for="rock">Rock</label>
+
+        <input type="checkbox" name="estilo" id="samba">
+        <label for="samba">Samba</label>
+
+        <input type="checkbox" name="estilo" id="pop">
+        <label for="pop">Pop</label>
+
+        <br><br>
+
+        Estado:
+        <select name="estado">
+            <option value="sp"">São Paulo</option>
+            <option value=" pr">Parana</option>
+            <option value="rs">Rio Grande do Sul</option>
+            <option value="ce">Ceara</option>
+        </select>
+
+        <br><br>
+        Upload de arquivo:
+        <input type="file" name="arquivo">
+
+        <input type="submit" value="cadastrar">
+    </form>
+
+    <form>
+        <h1>Fieldset e legend</h1>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="email2">Email:</label>
+            <input type="text" name="email" id="email2">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
