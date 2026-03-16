@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(245, 245, 245, 0.986);
+}
+
+#produto_iphone{
+    background-color: white;
+
+    border: 2px solid gray;
+
+    margin: 20px;
+    padding: 15px;
+}
+
+#produto_iphone h1{
+    color: rgb(118, 5, 184);
+}
+
+#produto_iphone p{
+    color: gray;
+}
+
+img{
+    border: 2px solid rgb(118, 5, 184);
+    
+    padding: 10px;
+}
