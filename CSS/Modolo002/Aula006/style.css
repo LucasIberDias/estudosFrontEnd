@@ -1,0 +1,30 @@
+#topo{
+   background-color: rgb(0, 140, 255); 
+   padding-bottom: 8px;
+}
+
+#topo a{
+    color: rgba(0, 102, 255, 0.452);
+
+    background-color: rgba(255, 255, 255, 0.562);
+
+    border: 1px solid white;
+    border-radius: 5px;
+
+    padding: 5px;
+
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#banner{
+    background-color: purple;
+    width: 1000px;
+    margin: 10px auto;
+}
+
+#produtos{
+    border: 1px solid red;
+    width: 1000px;
+    margin: 10px auto;
+}
