@@ -1,5 +1,6 @@
 #topo{
     background-color: red;
+    padding: 7px;
 }
 
 .destaque{
@@ -8,4 +9,14 @@
 
 #banner{
     background-color: gray;
+}
+
+#topo a{
+    color: white;
+
+    border-left: 2px solid white;
+
+    font-size: 18px;
+
+    padding: 5px;
 }
